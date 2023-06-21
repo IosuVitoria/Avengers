@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+.form-container {
+  font-family: "Marvel", sans-serif;
+  background-image: url('../../../assets/reclutamiento.jfif');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.form-title,
+.form-group {
+  color: #e3dfe7;
+  border-radius: 10px;
+}
+
+.form-title {
+    background: linear-gradient(to bottom, #003972, #b4d9ff);
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Marvel', sans-serif;
+}
+  
+.form-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #8e93dde1;
+  border-radius: 20px;
+}
+  
+.form-group {
+  margin-bottom: 10px;
+}
+  
+.form-label {
+  display: block;
+  font-size: 18px;
+  font-family: 'Marvel', sans-serif;
+  text-align: left;
+}
+  
+.form-input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  font-family: 'Marvel', sans-serif;
+}
+  
+.form-textarea {
+  width: 90%;
+  border-radius: 20px;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Marvel', sans-serif;
+}
+  
+.form-checkbox {
+  margin-top: 5px;
+}
+  
+.form-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: 'Marvel', sans-serif;
+  background-color: #f9c82d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: flash 2s infinite;
+  }
+  
+@keyframes flash {
+  0%, 50% {
+    background-color: #f9c82d;
+    color: #fff;
+  }
+  25%, 75% {
+    background-color: #fff;
+    color: #f9c82d;
+  }
+}
+  
+.form-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+  

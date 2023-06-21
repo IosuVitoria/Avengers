@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #b4d9ff, #003972);
+  opacity: 0.9;
+  background-image: url('../../../../assets/fondopágina2.jfif');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.avenger-item {
+  text-align: center;
+  opacity: 1;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: #cfe3fc;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.avenger-hero {
+  font-size: 28px;
+  font-weight: bold;
+  color: #003972;
+  margin-bottom: 10px;
+  font-family: "Marvel", sans-serif;
+}
+
+.avenger-name {
+  font-size: 24px;
+  color: #003972;
+  margin-bottom: 15px;
+  font-family: "Marvel", sans-serif;
+}
+
+.avenger-description {
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 10px;
+  font-family: "Marvel", sans-serif;
+}
+
+.avenger-image {
+  width: 350px;
+  height: 350px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease-in-out;
+}
+
+.avenger-image:hover {
+  transform: scale(1.05);
+}
+
+.back-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Marvel", sans-serif;
+}
+
+.back-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}

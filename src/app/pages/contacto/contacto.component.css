@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+.background{
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Marvel", sans-serif;
+  background-image: url('../../../assets/tech.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 98%;
+  height: 70vh;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #003972, #b4d9ff);
+  opacity: 0.9;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-details {
+  margin-left: 30px;
+}
+
+.contact-name {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.contact-description {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.contact-email {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.contact-email-link {
+  font-size: 20px;
+  color: blue;
+  text-decoration: underline;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.contact-links {
+  display: flex;
+  margin-top: 20px;
+}
+
+.contact-links a {
+  margin-right: 10px;
+}
+
+.contact-links img {
+  width: 50px;
+  height: 50px;
+}

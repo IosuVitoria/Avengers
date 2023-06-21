@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8e93dde1;
+  font-family: "Marvel", Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+  padding: 10px;
+  background-image: url("../../../assets/navfondo.jfif");
+}
+
+.nav-logo {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-link-home {
+  background-color: transparent;
+  color: #333;
+}
+
+.nav-link-home:hover,
+.nav-link-home.nav-link-active {
+  background-color: transparent;
+  color: #000;
+  font-weight: bold;
+}
+.nav-link,
+.nav-link-active {
+  color: #333;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link-active {
+  color: #000;
+  font-weight: bold;
+  background-color: #f9c82d;
+}
+
+.nav-link:not(.nav-logo):hover {
+  transform: scale(1.1);
+}

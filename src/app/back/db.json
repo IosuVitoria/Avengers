@@ -1,0 +1,291 @@
+{
+  "avengers": [
+    {
+      "id": 1,
+      "hero": "Spider-Man",
+      "name": "Peter Benjamin Parker",
+      "link": "http://marvel.com/characters/54/spider-man",
+      "description": "El hombre araña fue una creación de Stan Lee y Steve Ditko que apareció por primera vez en el Amazing Fantasy en 1969.",
+      "img": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/005smp_ons_crd_02.jpg",
+      "isActive": false,
+      "video": "this.sanitizer.bypassSecurityTrustResourceUrl('../../assets/spiderman.mp4')",
+      "strength": 7,
+      "height": 175,
+      "weight": 68,
+      "abilities": [
+        "Agilidad sobrehumana",
+        "Sentido arácnido",
+        "Trepar paredes"
+      ],
+      "teams": [
+        "Avengers"
+      ],
+      "movies": [
+        "Spider-Man: Homecoming",
+        "Spider-Man: Far From Home",
+        "Spider-Man: No Way Home"
+      ]
+    },
+    {
+      "id": 2,
+      "hero": "Scarlet Witch",
+      "name": "Wanda Maximoff",
+      "link": "https://www.marvel.com/characters/scarlet-witch-wanda-maximoff",
+      "description": "Scarlet Witch es un personaje de Marvel Comics. Es una mutante con poderes de alterar la realidad y manipulación mágica.",
+      "img": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/012scw_ons_crd_02.jpg",
+      "isActive": false,
+      "video": "",
+      "strength": 6,
+      "height": 170,
+      "weight": 55,
+      "abilities": [
+        "Manipulación de la realidad",
+        "Poderes mágicos",
+        "Telequinesis"
+      ],
+      "teams": [
+        "Avengers",
+        "X-Men"
+      ],
+      "movies": [
+        "Avengers: Age of Ultron",
+        "Avengers: Infinity War",
+        "Avengers: Endgame"
+      ]
+    },
+    {
+      "id": 3,
+      "hero": "HULK",
+      "name": "Robert Bruce Banner",
+      "link": "http://marvel.com/characters/25/hulk",
+      "description": "Hulk es un superhéroe de Marvel Comics. Se trata de la forma alter ego del científico Bruce Banner, quien se transforma en Hulk cuando experimenta emociones intensas.",
+      "img": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/006hbb_ons_crd_03.jpg",
+      "isActive": false,
+      "video": "",
+      "strength": 10,
+      "height": 275,
+      "weight": 635,
+      "abilities": [
+        "Fuerza sobrehumana",
+        "Regeneración",
+        "Salto largo"
+      ],
+      "teams": [
+        "Avengers"
+      ],
+      "movies": [
+        "The Incredible Hulk",
+        "Avengers",
+        "Avengers: Age of Ultron"
+      ]
+    },
+    {
+      "id": 4,
+      "hero": "Black Widow",
+      "name": "Natalia 'Natasha' Alianovna Romanova",
+      "link": "http://marvel.com/characters/6/black_widow",
+      "description": "Black Widow es una espía y asesina altamente entrenada que se ha convertido en una destacada superhéroe en el universo de Marvel Comics.",
+      "img": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/011blw_ons_crd_04.jpg",
+      "isActive": false,
+      "video": "",
+      "strength": 5,
+      "height": 170,
+      "weight": 60,
+      "abilities": [
+        "Habilidades de espionaje",
+        "Experta en combate cuerpo a cuerpo",
+        "Dominio de armas"
+      ],
+      "teams": [
+        "Avengers"
+      ],
+      "movies": [
+        "Iron Man 2",
+        "The Avengers",
+        "Black Widow"
+      ]
+    },
+    {
+      "id": 5,
+      "hero": "Doctor Strange",
+      "name": "Stephen Strange",
+      "link": "https://www.marvel.com/characters/doctor-strange-stephen-strange",
+      "description": "Doctor Strange es un hechicero maestro y superhéroe de Marvel Comics. Es conocido por su capacidad para utilizar la magia y su papel en la protección de la realidad de amenazas místicas.",
+      "img": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/009drs_ons_crd_02.jpg",
+      "isActive": false,
+      "video": "",
+      "strength": 4,
+      "height": 185,
+      "weight": 80,
+      "abilities": [
+        "Magia",
+        "Proyección astral",
+        "Manipulación temporal"
+      ],
+      "teams": [
+        "Avengers"
+      ],
+      "movies": [
+        "Doctor Strange",
+        "Thor: Ragnarok",
+        "Avengers: Infinity War"
+      ]
+    },
+    {
+      "id": 6,
+      "hero": "Captain America",
+      "name": "Steven Rogers",
+      "link": "http://marvel.com/characters/8/captain_america",
+      "description": "Captain America es un superhéroe icónico de Marvel Comics. Es un soldado mejorado con un suero que le otorga fuerza, velocidad y agilidad sobrehumanas, así como un escudo indestructible.",
+      "img": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/003cap_ons_crd_03.jpg",
+      "isActive": false,
+      "video": "",
+      "strength": 8,
+      "height": 188,
+      "weight": 95,
+      "abilities": [
+        "Fuerza sobrehumana",
+        "Agilidad",
+        "Maestría en combate"
+      ],
+      "teams": [
+        "Avengers"
+      ],
+      "movies": [
+        "Captain America: The First Avenger",
+        "The Avengers",
+        "Avengers: Endgame"
+      ]
+    },
+    {
+      "id": 12,
+      "hero": "Iron Man",
+      "name": "Anthony Edward 'Tony' Stark",
+      "link": "http://marvel.com/characters/29/iron_man",
+      "description": "Iron Man es un superhéroe ingenioso y multimillonario de Marvel Comics. Utiliza una armadura de alta tecnología para luchar contra el crimen y proteger al mundo.",
+      "img": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/002irm_ons_crd_03.jpg",
+      "isActive": false,
+      "video": "",
+      "strength": 7,
+      "height": 185,
+      "weight": 85,
+      "abilities": [
+        "Tecnología avanzada",
+        "Vuelo",
+        "Rayos repulsores"
+      ],
+      "teams": [
+        "Avengers"
+      ],
+      "movies": [
+        "Iron Man",
+        "The Avengers",
+        "Avengers: Endgame"
+      ]
+    },
+    {
+      "id": 7,
+      "hero": "Thor",
+      "name": "Thor Odinson",
+      "link": "http://marvel.com/characters/60/thor",
+      "description": "Thor es un superhéroe asgardiano de Marvel Comics. Es el dios del trueno y posee una fuerza y resistencia sobrehumanas, además de su famoso martillo Mjolnir.",
+      "img": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/004tho_ons_crd_03.jpg",
+      "isActive": false,
+      "video": "",
+      "strength": 9,
+      "height": 198,
+      "weight": 120,
+      "abilities": [
+        "Fuerza sobrehumana",
+        "Control del clima",
+        "Vuelo"
+      ],
+      "teams": [
+        "Avengers"
+      ],
+      "movies": [
+        "Thor",
+        "The Avengers",
+        "Thor: Ragnarok"
+      ]
+    },
+    {
+      "id": 8,
+      "hero": "Black Panther",
+      "name": "T'Challa",
+      "link": "https://www.marvel.com/characters/black-panther-t-challa",
+      "description": "Black Panther es el rey de Wakanda y posee habilidades mejoradas físicamente gracias al corazón en forma de hierba del corazón. Es un estratega y luchador formidable.",
+      "img": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/007blp_ons_crd_02.jpg",
+      "isActive": false,
+      "video": "",
+      "strength": 7,
+      "height": 183,
+      "weight": 85,
+      "abilities": [
+        "Fuerza mejorada",
+        "Sentidos agudos",
+        "Habilidades de combate"
+      ],
+      "teams": [
+        "Avengers"
+      ],
+      "movies": [
+        "Black Panther",
+        "Avengers: Infinity War",
+        "Black Panther: Wakanda Forever"
+      ]
+    },
+    {
+      "id": 9,
+      "hero": "Captain Marvel",
+      "name": "Carol Danvers",
+      "link": "https://www.marvel.com/characters/captain-marvel-carol-danvers",
+      "description": "Captain Marvel es una heroína cósmica con poderes de vuelo, fuerza sobrehumana y la capacidad de disparar explosiones de energía. Es una de las Avenger más poderosas.",
+      "img": "https://th.bing.com/th/id/R.a1742c9bb821e0dc19a24bc0daf1d583?rik=ZVrSfIqIBUB%2bLw&pid=ImgRaw&r=0",
+      "isActive": false,
+      "video": "",
+      "strength": 9,
+      "height": 175,
+      "weight": 70,
+      "abilities": [
+        "Fuerza cósmica",
+        "Vuelo supersonico",
+        "Manipulación de energía"
+      ],
+      "teams": [
+        "Avengers"
+      ],
+      "movies": [
+        "Captain Marvel",
+        "Avengers: Endgame",
+        "The Marvels"
+      ]
+    },
+    {
+      "id": 10,
+      "hero": "Ant-Man",
+      "name": "Scott Lang",
+      "link": "https://www.marvel.com/characters/ant-man-scott-lang",
+      "description": "Ant-Man tiene la capacidad de encogerse y aumentar su fuerza al mismo tiempo. Puede comunicarse y controlar a las hormigas gracias a su traje especial y al dispositivo Pym.",
+      "img": "https://th.bing.com/th/id/OIP._vf8MrMltKthozsXYeUzbgHaLH?pid=ImgDet&rs=1",
+      "isActive": false,
+      "video": "",
+      "strength": 5,
+      "height": 175,
+      "weight": 75,
+      "abilities": [
+        "Encogimiento",
+        "Aumento de fuerza",
+        "Control de hormigas"
+      ],
+      "teams": [
+        "Avengers"
+      ],
+      "movies": [
+        "Ant-Man",
+        "Ant-Man and The Wasp",
+        "Ant-Man and The Wasp: Quantumania"
+      ]
+    }
+  ]
+}

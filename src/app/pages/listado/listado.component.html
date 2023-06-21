@@ -1,0 +1,9 @@
+<ul class="avengers-list">
+  <li *ngFor="let avenger of avengersList">
+    <h4>{{avenger.hero}}</h4>
+    <h4>{{avenger.name}}</h4>
+    <img src="{{avenger.img}}" alt="{{avenger.name}}">
+    <button routerLink="/avengers/{{avenger.id}}">Ver más</button>
+    <button (click)="eliminarAvenger(avenger.id)">Eliminar</button>
+  </li>
+</ul>

@@ -1,0 +1,50 @@
+.avengers-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url('../../../assets/fondopágina2.jfif');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+
+}
+
+.avengers-list li {
+  background-color: #eaf2f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.avengers-list li h4 {
+  color: #14304e;
+  font-family: 'Marvel', Arial, Helvetica, sans-serif;
+}
+
+.avengers-list li img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.avengers-list li button {
+  background-image: linear-gradient(to bottom, #2494e2, #5e4bd1);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 3px;
+}
+
+.avengers-list li button:hover {
+  background-image: linear-gradient(to bottom, #0f6ab4, #472baa);
+  margin-right: 3px;
+}

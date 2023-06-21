@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/fondopagina.jfif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8e93dde1;
+    padding: 10px;
+  }
+  
+  .nav-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .nav-link {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover:not(.nav-logo) {
+    transform: scale(1.1);
+  }
+  
+  .router-container {
+    flex: 1;
+  }
+  

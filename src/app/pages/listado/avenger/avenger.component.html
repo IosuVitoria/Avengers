@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="avenger-item">
+      <h4 class="avenger-hero">{{ avenger.hero }}</h4>
+      <h4 class="avenger-name">{{ avenger.name }}</h4>
+      <h5 class="avenger-description">{{ avenger.description }}</h5>
+      <h4>Características físicas</h4>
+      <h5 class="avenger-description">{{ avenger.height }} m</h5>
+      <h5 class="avenger-description">{{ avenger.weight }} kg</h5>
+      <h5 class="avenger-description">Fuerza de clase: {{ avenger.strength }}</h5>
+      <img src="{{ avenger.img }}" alt="{{ avenger.name }}" class="avenger-image" />
+      <button class="back-button" routerLink="/avengers">Volver</button>
+    </div>
+  </div>
